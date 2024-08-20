@@ -1,0 +1,33 @@
+#String Variables
+name: Himanshu
+fruit: "Apple"
+job: 'SDE'
+
+#Single line in multiple lines
+bio: > 
+I am 
+Himanshu 
+
+#same as
+bio2: I am Himanshu
+
+#specify the type
+num: !!int 0
+isWhat: !!boolean no
+
+#sequence
+student: !!sequence
+ -marks
+ -name
+ -rolln0
+
+ #nested mappings
+ name: Himanshu
+ role:
+  age: 22
+  job: Student
+
+  #pair
+pair example: !!pair
+ -job: Student
+ -job: Teacher
